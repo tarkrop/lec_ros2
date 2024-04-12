@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/takrop/ros2_ws/install/hls_lfcd_lds_driver/setup.sh

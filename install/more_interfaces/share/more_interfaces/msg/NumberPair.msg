@@ -1,0 +1,1 @@
+/home/takrop/ros2_ws/src/more_interfaces/msg/NumberPair.msg

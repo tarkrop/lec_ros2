@@ -1,0 +1,1 @@
+/home/takrop/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/number_pair__type_support.h

@@ -1,0 +1,7 @@
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:[m[K In constructor ‘[01m[Klaser_read::laser_read()[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |       int [01;35m[Knum1[m[K, num2;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:13:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |       int num1, [01;35m[Knum2[m[K;
+      |                 [01;35m[K^~~~[m[K

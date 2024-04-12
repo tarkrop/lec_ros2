@@ -1,0 +1,47 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/takrop/ros2_ws/build/laser_read
+[35m[1mScanning dependencies of target lidar_publisher[0m
+[ 50%] Built target lidar_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/lidar_publisher.dir/src/lidar_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar_publisher[0m
+[100%] Built target lidar_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/lib/laser_read/lidar_subscriber
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/package_run_dependencies/laser_read
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/parent_prefix_path/laser_read
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.sh
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.dsv
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.bash
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.sh
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.zsh
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.dsv
+-- Symlinking: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.dsv
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/packages/laser_read
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig.cmake
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig-version.cmake
+-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.xml

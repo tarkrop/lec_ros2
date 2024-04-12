@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/takrop/ros2_ws/src/laser_read -DCMAKE_INSTALL_PREFIX=/home/takrop/ros2_ws/install/laser_read
+[0.019s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.151s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.291s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.386s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.462s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.504s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.505s] -- Added test 'lint_cmake' to check CMake code style
+[0.505s] -- Added test 'xmllint' to check XML markup files
+[0.507s] -- Configuring done
+[0.508s] -- Generating done
+[0.508s] -- Build files have been written to: /home/takrop/ros2_ws/build/laser_read

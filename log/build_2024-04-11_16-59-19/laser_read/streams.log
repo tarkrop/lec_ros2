@@ -1,0 +1,40 @@
+[0.009s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+[0.025s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.476s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.523s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.524s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.524s] -- Configured cppcheck include dirs: 
+[0.524s] -- Configured cppcheck exclude dirs and/or files: 
+[0.524s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.524s] -- Configured cpplint exclude dirs and/or files: 
+[0.525s] -- Added test 'lint_cmake' to check CMake code style
+[0.525s] -- Added test 'uncrustify' to check C / C++ code style
+[0.525s] -- Configured uncrustify additional arguments: 
+[0.525s] -- Added test 'xmllint' to check XML markup files
+[0.527s] -- Configuring done
+[0.535s] -- Generating done
+[0.536s] -- Build files have been written to: /home/takrop/ros2_ws/build/laser_read
+[0.553s] [35m[1mScanning dependencies of target lidar_publisher[0m
+[0.554s] [35m[1mScanning dependencies of target lidar_subscriber[0m
+[0.571s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o[0m
+[0.577s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_publisher.dir/src/lidar_publisher.cpp.o[0m
+[1.584s] [ 75%] [32m[1mLinking CXX executable lidar_publisher[0m
+[1.645s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.645s] (.text+0x24): undefined reference to `main'
+[1.645s] collect2: error: ld returned 1 exit status
+[1.646s] make[2]: *** [CMakeFiles/lidar_publisher.dir/build.make:141: lidar_publisher] 오류 1
+[1.646s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lidar_publisher.dir/all] 오류 2
+[1.647s] make[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[3.605s] [100%] [32m[1mLinking CXX executable lidar_subscriber[0m
+[3.755s] [100%] Built target lidar_subscriber
+[3.756s] make: *** [Makefile:141: all] 오류 2
+[3.758s] Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '2': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12

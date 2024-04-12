@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/takrop/ros2_ws/build/laser_read/lidar_subscriber" "/home/takrop/ros2_ws/build/laser_read/lidar_publisher" "TARGETS" "lidar_subscriber" "lidar_publisher" "DESTINATION" "lib/laser_read")

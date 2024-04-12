@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/takrop/ros2_ws/src/laser_read -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/takrop/ros2_ws/install/laser_read
+[0.060s] -- The C compiler identification is GNU 9.4.0
+[0.104s] -- The CXX compiler identification is GNU 9.4.0
+[0.109s] -- Check for working C compiler: /usr/bin/cc
+[0.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.154s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.259s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.336s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.587s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.674s] -- Looking for pthread.h
+[0.721s] -- Looking for pthread.h - found
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.769s] -- Looking for pthread_create in pthreads
+[0.806s] -- Looking for pthread_create in pthreads - not found
+[0.807s] -- Looking for pthread_create in pthread
+[0.852s] -- Looking for pthread_create in pthread - found
+[0.853s] -- Found Threads: TRUE  
+[0.954s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.032s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.079s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.080s] -- Added test 'lint_cmake' to check CMake code style
+[1.080s] -- Added test 'xmllint' to check XML markup files
+[1.082s] -- Configuring done
+[1.083s] -- Generating done
+[1.084s] -- Build files have been written to: /home/takrop/ros2_ws/build/laser_read

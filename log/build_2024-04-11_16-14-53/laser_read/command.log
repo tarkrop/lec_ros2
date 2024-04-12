@@ -1,0 +1,1 @@
+Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/takrop/ros2_ws/src/laser_read -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/takrop/ros2_ws/install/laser_read

@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (laser_read) JobQueued: {'identifier': 'laser_read', 'dependencies': OrderedDict()}
+[0.000533] (laser_read) JobStarted: {'identifier': 'laser_read'}
+[0.006316] (laser_read) JobProgress: {'identifier': 'laser_read', 'progress': 'cmake'}
+[0.006714] (laser_read) JobProgress: {'identifier': 'laser_read', 'progress': 'build'}
+[0.007263] (laser_read) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/takrop/ros2_ws/build/laser_read', '--', '-j12', '-l12'], 'cwd': '/home/takrop/ros2_ws/build/laser_read', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('SSH_AGENT_PID', '1678'), ('ROS_PACKAGE_PATH', '/home/takrop/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/takrop/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15229'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('JOURNAL_STREAM', '8:47046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/takrop/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'takrop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/takrop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/takrop:@/tmp/.ICE-unix/1716,unix/takrop:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', 'a01b806b0b114488996c7f445914dea4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/takrop/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2619c565-5008-43db-a6ae-a2d3615aed00'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/takrop/ros2_ws/build/laser_read'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.025068] (laser_read) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.040398] (laser_read) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099935] (-) TimerEvent: {}
+[0.155578] (laser_read) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.160061] (laser_read) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.181936] (laser_read) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.183805] (laser_read) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200130] (-) TimerEvent: {}
+[0.263933] (laser_read) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.295540] (laser_read) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.296138] (laser_read) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300287] (-) TimerEvent: {}
+[0.389818] (laser_read) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.400465] (-) TimerEvent: {}
+[0.466517] (laser_read) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.500556] (-) TimerEvent: {}
+[0.509036] (laser_read) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.509485] (laser_read) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.509571] (laser_read) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.509612] (laser_read) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.509801] (laser_read) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.509884] (laser_read) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.510033] (laser_read) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.510434] (laser_read) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.510470] (laser_read) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.510664] (laser_read) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.512168] (laser_read) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.516810] (laser_read) StdoutLine: {'line': b'-- Generating done\n'}
+[0.517647] (laser_read) StdoutLine: {'line': b'-- Build files have been written to: /home/takrop/ros2_ws/build/laser_read\n'}
+[0.535903] (laser_read) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_subscriber\x1b[0m\n'}
+[0.552559] (laser_read) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o\x1b[0m\n'}
+[0.600685] (-) TimerEvent: {}
+[0.701020] (-) TimerEvent: {}
+[0.801360] (-) TimerEvent: {}
+[0.901707] (-) TimerEvent: {}
+[1.002061] (-) TimerEvent: {}
+[1.102405] (-) TimerEvent: {}
+[1.202733] (-) TimerEvent: {}
+[1.303056] (-) TimerEvent: {}
+[1.403392] (-) TimerEvent: {}
+[1.503727] (-) TimerEvent: {}
+[1.604073] (-) TimerEvent: {}
+[1.704444] (-) TimerEvent: {}
+[1.804710] (-) TimerEvent: {}
+[1.904969] (-) TimerEvent: {}
+[2.005329] (-) TimerEvent: {}
+[2.105708] (-) TimerEvent: {}
+[2.206055] (-) TimerEvent: {}
+[2.306383] (-) TimerEvent: {}
+[2.406714] (-) TimerEvent: {}
+[2.507042] (-) TimerEvent: {}
+[2.607369] (-) TimerEvent: {}
+[2.707629] (-) TimerEvent: {}
+[2.807943] (-) TimerEvent: {}
+[2.908177] (-) TimerEvent: {}
+[3.008448] (-) TimerEvent: {}
+[3.108675] (-) TimerEvent: {}
+[3.208997] (-) TimerEvent: {}
+[3.309340] (-) TimerEvent: {}
+[3.409704] (-) TimerEvent: {}
+[3.415440] (laser_read) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_subscriber\x1b[0m\n'}
+[3.509894] (-) TimerEvent: {}
+[3.557888] (laser_read) StdoutLine: {'line': b'[100%] Built target lidar_subscriber\n'}
+[3.569505] (laser_read) CommandEnded: {'returncode': 0}
+[3.586474] (laser_read) JobProgress: {'identifier': 'laser_read', 'progress': 'install'}
+[3.593020] (laser_read) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/takrop/ros2_ws/build/laser_read'], 'cwd': '/home/takrop/ros2_ws/build/laser_read', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('SSH_AGENT_PID', '1678'), ('ROS_PACKAGE_PATH', '/home/takrop/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/takrop/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15229'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('JOURNAL_STREAM', '8:47046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/takrop/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'takrop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/takrop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/takrop:@/tmp/.ICE-unix/1716,unix/takrop:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', 'a01b806b0b114488996c7f445914dea4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/takrop/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2619c565-5008-43db-a6ae-a2d3615aed00'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/takrop/ros2_ws/build/laser_read'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[3.599149] (laser_read) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.599589] (laser_read) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.600023] (laser_read) StdoutLine: {'line': b'-- Symlinking: /home/takrop/ros2_ws/install/laser_read/lib/laser_read/lidar_subscriber\n'}
+[3.607519] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/package_run_dependencies/laser_read\n'}
+[3.607628] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/parent_prefix_path/laser_read\n'}
+[3.607709] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.sh\n'}
+[3.607762] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.dsv\n'}
+[3.607893] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.sh\n'}
+[3.608037] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.dsv\n'}
+[3.608194] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.bash\n'}
+[3.608310] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.sh\n'}
+[3.608421] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.zsh\n'}
+[3.608547] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.dsv\n'}
+[3.608771] (laser_read) StdoutLine: {'line': b'-- Symlinking: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.dsv\n'}
+[3.609958] (-) TimerEvent: {}
+[3.614932] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/packages/laser_read\n'}
+[3.615075] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig.cmake\n'}
+[3.615152] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig-version.cmake\n'}
+[3.615235] (laser_read) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.xml\n'}
+[3.616241] (laser_read) CommandEnded: {'returncode': 0}
+[3.642786] (laser_read) JobEnded: {'identifier': 'laser_read', 'rc': 0}
+[3.643256] (-) EventReactorShutdown: {}

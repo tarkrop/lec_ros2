@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (hls_lfcd_lds_driver) JobQueued: {'identifier': 'hls_lfcd_lds_driver', 'dependencies': OrderedDict()}
+[0.000246] (laser_read) JobQueued: {'identifier': 'laser_read', 'dependencies': OrderedDict()}
+[0.000518] (hls_lfcd_lds_driver) JobStarted: {'identifier': 'hls_lfcd_lds_driver'}
+[0.005534] (laser_read) JobStarted: {'identifier': 'laser_read'}
+[0.009866] (hls_lfcd_lds_driver) JobProgress: {'identifier': 'hls_lfcd_lds_driver', 'progress': 'cmake'}
+[0.010248] (hls_lfcd_lds_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/takrop/ros2_ws/src/hls_lfcd_lds_driver', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/takrop/ros2_ws/install/hls_lfcd_lds_driver'], 'cwd': '/home/takrop/ros2_ws/build/hls_lfcd_lds_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('SSH_AGENT_PID', '1678'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/takrop/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15229'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('JOURNAL_STREAM', '8:47046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/takrop/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'takrop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/takrop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/takrop:@/tmp/.ICE-unix/1716,unix/takrop:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', 'a01b806b0b114488996c7f445914dea4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1578f92b-4b32-4a85-912c-a419802d6932'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/takrop/ros2_ws/build/hls_lfcd_lds_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/takrop/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.014350] (laser_read) JobProgress: {'identifier': 'laser_read', 'progress': 'cmake'}
+[0.014627] (laser_read) Command: {'cmd': ['/usr/bin/cmake', '/home/takrop/ros2_ws/src/laser_read', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/takrop/ros2_ws/install/laser_read'], 'cwd': '/home/takrop/ros2_ws/build/laser_read', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('SSH_AGENT_PID', '1678'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/takrop/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15229'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('JOURNAL_STREAM', '8:47046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/takrop/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'takrop'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/takrop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/takrop:@/tmp/.ICE-unix/1716,unix/takrop:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', 'a01b806b0b114488996c7f445914dea4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1578f92b-4b32-4a85-912c-a419802d6932'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/takrop/ros2_ws/build/laser_read'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.065009] (laser_read) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.067066] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099813] (-) TimerEvent: {}
+[0.109127] (laser_read) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.111190] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.114364] (laser_read) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.115505] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.158556] (laser_read) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.158824] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.159536] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159647] (laser_read) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199991] (-) TimerEvent: {}
+[0.203232] (laser_read) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.203388] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.210647] (laser_read) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.210867] (laser_read) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212364] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.212736] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212964] (laser_read) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.215121] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.263221] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.263533] (laser_read) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.264288] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.264692] (laser_read) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300105] (-) TimerEvent: {}
+[0.314986] (laser_read) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.315153] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323386] (laser_read) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323693] (laser_read) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325014] (laser_read) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.325113] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325531] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.327276] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/takrop/ros2_ws/build/hls_lfcd_lds_driver/devel\n'}
+[0.327404] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/takrop/catkin_ws/devel;/opt/ros/noetic\n'}
+[0.327450] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- This workspace overlays: /home/takrop/catkin_ws/devel;/opt/ros/noetic\n'}
+[0.329828] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.341503] (laser_read) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.341643] (laser_read) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.345572] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.345692] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.345736] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.368038] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Found PY_em: /usr/lib/python3/dist-packages/em.py  \n'}
+[0.368176] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using empy: /usr/lib/python3/dist-packages/em.py\n'}
+[0.400277] (-) TimerEvent: {}
+[0.452648] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.452903] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.455071] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/takrop/ros2_ws/build/hls_lfcd_lds_driver/test_results\n'}
+[0.459050] (laser_read) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.471413] (laser_read) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.499747] (laser_read) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500367] (-) TimerEvent: {}
+[0.503300] (laser_read) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.566621] (laser_read) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.592086] (laser_read) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.600482] (-) TimerEvent: {}
+[0.642639] (laser_read) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.664907] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Forcing gtest/gmock from source, though one was otherwise available.\n'}
+[0.665099] (hls_lfcd_lds_driver) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.665188] (hls_lfcd_lds_driver) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.678144] (laser_read) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.679161] (laser_read) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.679616] (laser_read) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.683378] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.685187] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.688762] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests3\n'}
+[0.700564] (-) TimerEvent: {}
+[0.725995] (laser_read) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.726375] (laser_read) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.728479] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- catkin 0.8.10\n'}
+[0.728662] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.774529] (laser_read) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.774816] (laser_read) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.800655] (-) TimerEvent: {}
+[0.811845] (laser_read) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.812043] (laser_read) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.857601] (laser_read) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.858697] (laser_read) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900149] (hls_lfcd_lds_driver) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.900365] (hls_lfcd_lds_driver) StderrLine: {'line': b'  File "/home/takrop/ros2_ws/build/hls_lfcd_lds_driver/catkin_generated/generate_cached_setup.py", line 22, in <module>\n'}
+[0.900547] (hls_lfcd_lds_driver) StderrLine: {'line': b"    code = generate_environment_script('/home/takrop/ros2_ws/build/hls_lfcd_lds_driver/devel/env.sh')\n"}
+[0.900693] (-) TimerEvent: {}
+[0.900781] (hls_lfcd_lds_driver) StderrLine: {'line': b'  File "/opt/ros/noetic/lib/python3/dist-packages/catkin/environment_cache.py", line 63, in generate_environment_script\n'}
+[0.900833] (hls_lfcd_lds_driver) StderrLine: {'line': b"    env_after = ast.literal_eval(output.decode('utf8'))\n"}
+[0.900870] (hls_lfcd_lds_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/ast.py", line 59, in literal_eval\n'}
+[0.900907] (hls_lfcd_lds_driver) StderrLine: {'line': b"    node_or_string = parse(node_or_string, mode='eval')\n"}
+[0.900939] (hls_lfcd_lds_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/ast.py", line 47, in parse\n'}
+[0.900972] (hls_lfcd_lds_driver) StderrLine: {'line': b'    return compile(source, filename, mode, flags,\n'}
+[0.901005] (hls_lfcd_lds_driver) StderrLine: {'line': b'  File "<unknown>", line 1\n'}
+[0.901039] (hls_lfcd_lds_driver) StderrLine: {'line': b"    ROS_DISTRO was set to 'foxy' before. Please make sure that the environment does not mix paths from different distributions.\n"}
+[0.901074] (hls_lfcd_lds_driver) StderrLine: {'line': b'               ^\n'}
+[0.901107] (hls_lfcd_lds_driver) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.912817] (hls_lfcd_lds_driver) StderrLine: {'line': b'CMake Error at /opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):\n'}
+[0.912994] (hls_lfcd_lds_driver) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.913076] (hls_lfcd_lds_driver) StderrLine: {'line': b'  "/home/takrop/ros2_ws/build/hls_lfcd_lds_driver/catkin_generated/generate_cached_setup.py")\n'}
+[0.913150] (hls_lfcd_lds_driver) StderrLine: {'line': b'  returned error code 1\n'}
+[0.913226] (hls_lfcd_lds_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.913309] (hls_lfcd_lds_driver) StderrLine: {'line': b'  /opt/ros/noetic/share/catkin/cmake/all.cmake:208 (safe_execute_process)\n'}
+[0.913380] (hls_lfcd_lds_driver) StderrLine: {'line': b'  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)\n'}
+[0.913450] (hls_lfcd_lds_driver) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.913520] (hls_lfcd_lds_driver) StderrLine: {'line': b'\n'}
+[0.913589] (hls_lfcd_lds_driver) StderrLine: {'line': b'\n'}
+[0.913955] (hls_lfcd_lds_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.914114] (hls_lfcd_lds_driver) StdoutLine: {'line': b'See also "/home/takrop/ros2_ws/build/hls_lfcd_lds_driver/CMakeFiles/CMakeOutput.log".\n'}
+[0.914194] (hls_lfcd_lds_driver) StdoutLine: {'line': b'See also "/home/takrop/ros2_ws/build/hls_lfcd_lds_driver/CMakeFiles/CMakeError.log".\n'}
+[0.918308] (hls_lfcd_lds_driver) CommandEnded: {'returncode': 1}
+[0.934826] (hls_lfcd_lds_driver) JobEnded: {'identifier': 'hls_lfcd_lds_driver', 'rc': 1}
+[0.959078] (laser_read) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.000828] (-) TimerEvent: {}
+[1.037483] (laser_read) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.084495] (laser_read) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.085391] (laser_read) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.085848] (laser_read) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.087726] (laser_read) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.088822] (laser_read) StdoutLine: {'line': b'-- Generating done\n'}
+[1.089682] (laser_read) StdoutLine: {'line': b'-- Build files have been written to: /home/takrop/ros2_ws/build/laser_read\n'}
+[1.095291] (laser_read) JobEnded: {'identifier': 'laser_read', 'rc': 'SIGINT'}
+[1.100995] (-) TimerEvent: {}
+[1.106053] (-) EventReactorShutdown: {}

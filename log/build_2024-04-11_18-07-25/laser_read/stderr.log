@@ -1,0 +1,4 @@
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_publisher.cpp:[m[K In constructor ‘[01m[KNumberPub::NumberPub(int, int)[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_publisher.cpp:19:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdefault_qos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   19 |       auto [01;35m[Kdefault_qos[m[K = rclcpp::QoS(rclcpp::SystemDefaultsQoS());
+      |            [01;35m[K^~~~~~~~~~~[m[K

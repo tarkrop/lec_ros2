@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+[0.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.394s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.474s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.521s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.522s] -- Configured cppcheck include dirs: 
+[0.522s] -- Configured cppcheck exclude dirs and/or files: 
+[0.522s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.522s] -- Configured cpplint exclude dirs and/or files: 
+[0.522s] -- Added test 'lint_cmake' to check CMake code style
+[0.522s] -- Added test 'uncrustify' to check C / C++ code style
+[0.523s] -- Configured uncrustify additional arguments: 
+[0.523s] -- Added test 'xmllint' to check XML markup files
+[0.524s] -- Configuring done
+[0.530s] -- Generating done
+[0.531s] -- Build files have been written to: /home/takrop/ros2_ws/build/laser_read
+[0.549s] [35m[1mScanning dependencies of target lidar_subscriber[0m
+[0.568s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o[0m
+[3.502s] [100%] [32m[1mLinking CXX executable lidar_subscriber[0m
+[3.646s] [100%] Built target lidar_subscriber
+[3.659s] Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '0': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+[3.682s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/takrop/ros2_ws/build/laser_read
+[3.687s] -- Install configuration: ""
+[3.687s] -- Execute custom install script
+[3.687s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/package_run_dependencies/laser_read
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/parent_prefix_path/laser_read
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.sh
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/ament_prefix_path.dsv
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.sh
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/environment/path.dsv
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.bash
+[3.688s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.sh
+[3.689s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.zsh
+[3.689s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/local_setup.dsv
+[3.689s] -- Symlinking: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.dsv
+[3.695s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/ament_index/resource_index/packages/laser_read
+[3.695s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig.cmake
+[3.695s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/cmake/laser_readConfig-version.cmake
+[3.695s] -- Up-to-date symlink: /home/takrop/ros2_ws/install/laser_read/share/laser_read/package.xml
+[3.697s] Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '0': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/takrop/ros2_ws/build/laser_read

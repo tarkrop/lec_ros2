@@ -1,0 +1,1 @@
+/home/takrop/ros2_ws/build/laser_read/ament_cmake_core/laser_readConfig-version.cmake

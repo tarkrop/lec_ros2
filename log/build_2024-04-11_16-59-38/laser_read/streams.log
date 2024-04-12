@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+[0.036s] [35m[1mScanning dependencies of target lidar_publisher[0m
+[0.044s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_publisher.dir/src/lidar_publisher.cpp.o[0m
+[0.048s] [ 75%] Built target lidar_subscriber
+[0.058s] [100%] [32m[1mLinking CXX executable lidar_publisher[0m
+[0.091s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.091s] (.text+0x24): undefined reference to `main'
+[0.091s] collect2: error: ld returned 1 exit status
+[0.092s] make[2]: *** [CMakeFiles/lidar_publisher.dir/build.make:141: lidar_publisher] 오류 1
+[0.093s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lidar_publisher.dir/all] 오류 2
+[0.093s] make: *** [Makefile:141: all] 오류 2
+[0.094s] Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '2': CMAKE_PREFIX_PATH=/home/takrop/ros2_ws/install/laser_read:/opt/ros/foxy:/home/takrop/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12

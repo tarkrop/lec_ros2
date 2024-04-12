@@ -1,0 +1,36 @@
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:[m[K In constructor ‘[01m[Klaser_read::laser_read()[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |       int [01;35m[Knum1[m[K, num2;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:13:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |       int num1, [01;35m[Knum2[m[K;
+      |                 [01;35m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:1[m[K:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:[m[K In member function ‘[01m[Kvoid laser_read::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:31:83:[m[K [01;31m[Kerror: [m[K‘[01m[Knum1[m[K’ was not declared in this scope
+   31 |       RCLCPP_INFO(this->get_logger(), "[0th] = '%f' [100th] = '%f'", _msg->ranges[[01;31m[Knum1[m[K], _msg->ranges[num2]);
+      |                                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:31:103:[m[K [01;31m[Kerror: [m[K‘[01m[Knum2[m[K’ was not declared in this scope
+   31 |       RCLCPP_INFO(this->get_logger(), "[0th] = '%f' [100th] = '%f'", _msg->ranges[num1], _msg->ranges[[01;31m[Knum2[m[K]);
+      |                                                                                                       [01;31m[K^~~~[m[K
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:[m[K In member function ‘[01m[Kvoid laser_read::int1_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:35:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knum1[m[K’ was not declared in this scope
+   35 |       [01;31m[Knum1[m[K = msg->data; // 받은 데이터를 클래스 변수에 저장
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:[m[K In member function ‘[01m[Kvoid laser_read::int2_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/takrop/ros2_ws/src/laser_read/src/lidar_subscriber.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knum2[m[K’ was not declared in this scope
+   39 |       [01;31m[Knum2[m[K = msg->data; // 받은 데이터를 클래스 변수에 저장
+      |       [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/lidar_subscriber.dir/build.make:63: CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar_subscriber.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

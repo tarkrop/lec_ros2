@@ -1,0 +1,4 @@
+Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/takrop/ros2_ws/build/laser_read -- -j12 -l12
+Invoking command in '/home/takrop/ros2_ws/build/laser_read': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/takrop/ros2_ws/build/laser_read
+Invoked command in '/home/takrop/ros2_ws/build/laser_read' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/takrop/ros2_ws/build/laser_read
